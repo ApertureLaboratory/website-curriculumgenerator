@@ -1,0 +1,232 @@
+#about-page {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #E0E0E0;
+}
+
+#about-page .header-web {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    top: 0;
+    padding: 20px;
+    margin-bottom: 50px;
+
+    display: absolute;
+    z-index: 3;
+}
+
+#about-page .container {
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    background: #2D829D;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-page  h1 {
+    color: #FFF;
+    font-size: 2.375rem;
+    font-weight: normal;
+}
+
+
+
+#about-page main {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: #FFF;
+    width: 100%;
+    max-width: 960px;
+    height: 498px;
+    top: calc(100vh - 70vh);
+    padding: 24px;
+    color: #1E5F74;
+
+}
+
+main .nerv {
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Palanquin Dark', sans-serif;
+    color: #FFF;
+    top: -200px;
+}
+
+main .nerv h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+main .nerv h4 {
+    font-size: 1.75rem !important;
+    margin-bottom: 40px;
+}
+
+#about-page main h4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 44px;
+}
+#about-page main .subtitle {
+    font-size: 1.5625rem;
+    font-weight: normal;
+    text-align:center;
+    margin-bottom: 64px;
+}
+
+#about-page main .divider {
+    width: 100%;
+    height: 1px;
+    border: 1px solid #1E5F74;
+}
+
+#about-page main .main-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 12px;
+}
+#about-page main .main-links h3{
+    font-size: 1.5625rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#about-page main .main-links ul{
+    list-style: none;
+}
+#about-page main .main-links ul li{
+    margin-top: 10px;
+}
+#about-page main .main-links a{
+    text-decoration: none;
+    font-weight: normal;
+    color: #1E5F74;
+}
+#about-page main .main-links .nerv-community {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+#about-page main .main-links .discord-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    color: #1E5F74;
+    align-items: center;
+}
+
+.dircord {
+    margin-right: 10px !important;
+}
+.header-mobile {
+    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    color: #FFF;
+}
+.header-mobile section { 
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-top: 20px;
+ }
+ .header-mobile div {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+@media(min-width: 1030px) {
+    .header-mobile {
+        display: none;
+    }
+}
+
+@media(max-width: 1030px) {
+    * {
+        font-size: 12px;
+    }
+    #about-page {
+        width: 100%;
+        background: #FFF;
+    }
+    #about-page main {
+        position: absolute;
+        max-width: 100%;
+        height: 100%;
+        top: calc(100vh - 65vh);
+        padding: 24px;
+        color: #1E5F74;
+    
+    }
+
+    #about-page .header-web {
+        display: none;
+    }
+    .header-mobile {
+        display: block;
+    }
+    main .nerv {
+        position: absolute;
+        width: 100vw;
+        font-family: 'Palanquin Dark', sans-serif;
+        color: #FFF;
+        top: -150px;
+    }
+    main .nerv h4 {
+        text-align: center;
+    }
+
+}
+@media(max-width: 630px) {
+    #about-page main .main-links{
+        flex-direction: column;
+    }
+    .main-links div {
+        margin-bottom: 20px;
+    }
+    #about-page main .main-links .nerv-community {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    #about-page main .main-links .nerv-community a {
+        display: flex;
+        justify-content:flex-start;
+    }
+}
+@media(max-width: 360px) {
+    main .nerv {
+        top: -140px;
+    }
+    #about-page main {
+        top: calc(100vh - 60vh);
+    }
+}
