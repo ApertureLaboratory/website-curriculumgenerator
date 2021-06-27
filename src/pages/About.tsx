@@ -45,7 +45,7 @@ function About() {
 
                 <main>
                     <div className="nerv">
-                        <h2>NERV Open Source</h2>
+                        <h2>Aperture Laboratories</h2>
                         <h4>Comunidade de desenvolvimento de projetos open source</h4>
                     </div>
 

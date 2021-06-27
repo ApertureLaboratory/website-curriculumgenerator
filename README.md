@@ -1,15 +1,13 @@
-# Projeto Open Source - NERV Open Source
+# Projeto Open Source - Aperture Laboratories
 ## Feito por Fukubi e Henrique Nitatori
 
-Esse projetoe é um website onde é requisitado os dados básicos do usuário como escolaridade, experiências profissionais e depois é efetuado a criação de um currículo em formato .PDF pronto para ser utilizado. O documento gerado não tem nenhuma restrição, podendo ser considerado como autor o dono dos dados fornecidos.
+Esse projeto é um website onde é requisitado os dados básicos do usuário como escolaridade, experiências profissionais e depois é efetuado a criação de um currículo em formato .PDF pronto para ser utilizado. O documento gerado não tem nenhuma restrição, podendo ser considerado como autor o dono dos dados fornecidos.
 
 ## Prints do projeto
 
-![landing-page](https://github.com/Fukubi/FreeCurriculumGenerator/blob/main/git%20images/landing-print.png)
+![landing-page](https://github.com/ApertureLaboratory/website-curriculumgenerator/blob/main/git%20images/curriculum-example.png?raw=true)
 
-![form-page](https://github.com/Fukubi/FreeCurriculumGenerator/blob/main/git%20images/requirements-print.png)
-
-![generated-pdf](https://github.com/Fukubi/FreeCurriculumGenerator/blob/main/git%20images/curriculum-example.png)
+![form-page](https://github.com/ApertureLaboratory/website-curriculumgenerator/blob/main/git%20images/requirements-print.png?raw=true)
 
 ## Técnologias utilizadas
 
